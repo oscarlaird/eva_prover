@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "evaf2f"
+version = "0.1.0"
+description = ""
+authors = ["Oscar Laird <olaird25@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.0.4"
+# torch = { version = "*", source = "pytorch" }
+sentence-transformers = "^2.2.2"
+evadb = {extras = ["document","qdrant"], version = "^0.3.7"}
+# override the torch installation with the cpu version using
+# poetry run pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+openai = "^0.28.1"
+python-dotenv = "^1.0.0"
+torch = "^2.1.0"
+bpython = "^0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# [[tool.poetry.source]]
+# name = "pytorch"
+# url = "https://download.pytorch.org/whl/cpu"
+# default = false

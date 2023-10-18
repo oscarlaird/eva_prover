@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "eva_proof_server"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^7.0.5"
+torch = "^2.1.0"
+sentence-transformers = "^2.2.2"
+evadb = "^0.3.7"
+openai = "^0.28.1"
+python-dotenv = "^1.0.0"
+bpython = "^0.24"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+pydantic = "<2"
+faiss-gpu = "^1.7.2"
+transformers = "^4.34.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
