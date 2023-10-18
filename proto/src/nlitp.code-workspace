@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../lean-gym"
+		},
+		{
+			"path": "../../eva_proof_server"
+		},
+		{
+			"path": "../../lean-tutorial"
+		}
+	],
+	"settings": {}
+}
